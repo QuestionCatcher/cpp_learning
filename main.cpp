@@ -7,11 +7,12 @@ int main() {
     cout << "Type 'welcome'" << endl;
     cin >> A;
     if (A == "welcome"){
-
+        cout << "Welcome in C++ world! Enjoy your adventure" << endl;
     } else {
         cout << "Misspelled word! Type 'welcome'" << endl;
         cin >> A;
         cout << "Welcome in C++ world! Enjoy your adventure" << endl;
+
     }
 
 }
