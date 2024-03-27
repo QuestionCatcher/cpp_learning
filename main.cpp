@@ -6,13 +6,13 @@ int main() {
     string A;
     cout << "Type 'welcome'" << endl;
     cin >> A;
-    if (A == "welcome"){
-        cout << "Welcome in C++ world! Enjoy your adventure" << endl;
-    } else {
-        cout << "Misspelled word! Type 'welcome'" << endl;
+    
+    while (A != "welcome") 
+        {
+        cout << "Misspelled word! Type 'welcome'" <<endl;
         cin >> A;
-        cout << "Welcome in C++ world! Enjoy your adventure" << endl;
+        }
 
-    }
-
+    cout << "Welcome to the C++ world! Enjoy your adventure." << endl;
+    
 }
